@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 body{
-    background:#4375FC;
+    background:#333;
     font-family: 'Lobster', cursive;
 }
 a{
-    color:grey;
     text-decoration: none;
 }
 a:hover{
@@ -14,7 +13,17 @@ a:hover{
     background:#FFF;
     margin-top:8%;
     padding: 2%;
+    border-radius: 25px;
 }
-#footerName{
-    color:#12BA16;
+#quote{
+    font-size: 25px;
+}
+#newTweet,#newQuote{
+    border:none;
+}
+#newTweet:focus, #newQuote:focus{
+    box-shadow:none;
+}
+footer p,a,a:hover{
+    color:#fff;
 }
