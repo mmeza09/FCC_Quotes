@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    background:#4375FC;
+    font-family: 'Lobster', cursive;
+}
+a{
+    color:grey;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#QuoteBox{
+    background:#FFF;
+    margin-top:8%;
+    padding: 2%;
+}
+#footerName{
+    color:#12BA16;
+}
